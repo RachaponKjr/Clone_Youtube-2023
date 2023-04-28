@@ -17,13 +17,34 @@
 .left-h{
     background-color:var(--bg-color);
     height:calc(100vh - 3.5rem);
-    width: 15rem;
+    width: 16rem;
     padding-top: 1rem;
     position: relative;
     display: inline;
     flex-direction: column;
     position: static;
+    overflow-y: scroll;
+    
 }
+.left-h::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  .left-h::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  .left-h::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .left-h:hover::-webkit-scrollbar-thumb{
+    background: rgb(125, 125, 125); 
+    
+  }
 .box-icon{
     width: calc(100% - 2rem);
     height: 2.5rem;

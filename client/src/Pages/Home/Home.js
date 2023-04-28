@@ -42,6 +42,7 @@ const Home = () => {
           })}
           <div className="line"></div>
           <Manumore />
+          <Manumore />
         </div>
         <div className="top-h">
           <h1> Test</h1>
