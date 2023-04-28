@@ -13,8 +13,8 @@ const Navber = () => {
   return (
     <div className="main-navber">
       <div className="left-navber">
-        <AiOutlineMenu />
-        <img src={IconYoutube} width={100} />
+        <AiOutlineMenu className="c-pointer"/>
+        <img src={IconYoutube} width={100} className="c-pointer" />
       </div>
       <div className="center-navber">
         <div className="search-input">
@@ -24,8 +24,8 @@ const Navber = () => {
         <AiTwotoneAudio className="icon-audio" />
       </div>
       <div className="right-navber">
-        <AiOutlineVideoCameraAdd />
-        <BsBell />
+        <AiOutlineVideoCameraAdd  className="c-pointer"/>
+        <BsBell  className="c-pointer"/>
         <div className="avata"></div>
       </div>
     </div>
