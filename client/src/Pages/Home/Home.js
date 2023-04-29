@@ -3,6 +3,7 @@ import Navber from "../Navber/Navber";
 import "./Home.css";
 import { CgHome } from "react-icons/cg";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import {Outlet} from "react-router-dom"
 
 const Home = () => {
   const manuList = [
@@ -48,6 +49,7 @@ const Home = () => {
           <SubC />
           <ListExplore />
         </div>
+        <div style={{display:"flex",flexDirection:"column"}}>
         <div className="top-h">
           <div className="left-click">
             <div className="box-lr" style={{ cursor: "pointer" }}>
@@ -78,7 +80,10 @@ const Home = () => {
               <AiOutlineRight />
             </div>
           </div>
+          
         </div>
+        <Outlet/>
+      </div>
       </div>
     </div>
   );
