@@ -80,7 +80,6 @@ const Home = () => {
               <AiOutlineRight />
             </div>
           </div>
-          
         </div>
         <Outlet/>
       </div>
